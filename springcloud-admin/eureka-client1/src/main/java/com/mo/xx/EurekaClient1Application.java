@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 梦想爱你心
- */
+ * 莫现新
+ * 日期：2019.04.26
+ * */
 @EnableEurekaServer
 @SpringBootApplication
 @RestController
