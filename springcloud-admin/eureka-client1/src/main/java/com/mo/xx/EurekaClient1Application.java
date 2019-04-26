@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- *噢噢噢噢哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦
+ *摸下您
  * */
 @EnableEurekaServer
 @SpringBootApplication
