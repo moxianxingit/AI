@@ -8,12 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 莫现新123
- *莫现新123莫现新123
- * 日期：2019.04.26反反复复付付付付付付付
+ *噢噢噢噢哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦
  * */
 @EnableEurekaServer
-
 @SpringBootApplication
 @RestController
 public class EurekaClient1Application {
