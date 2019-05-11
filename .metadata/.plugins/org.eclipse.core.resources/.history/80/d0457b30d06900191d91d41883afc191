@@ -1,0 +1,52 @@
+package com.mo;
+
+import java.awt.AWTException;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class User extends Thread {
+
+		 public static void main(String[] args) throws AWTException,         InterruptedException, IOException
+	        {
+
+			 
+			
+	            Robot robot = new Robot();
+	            //设置Robot产生一个动作后的休眠时间,否则执行过快
+	            robot.setAutoDelay(1000);
+
+	           //获取屏幕分辨率
+	            Dimension d = Toolkit.getDefaultToolkit().getScreenSize();
+	            System.out.println(d);
+	            Rectangle screenRect = new Rectangle(d);
+	            
+	            
+	          
+	            //移动鼠标
+	            robot.mouseMove(500, 500);
+	            
+	            Thread thread = new Thread();
+	            
+	            for (int i = 0; i <1000000000000000000000000; i++) {
+					
+				}
+				 thread.sleep(1000);
+	            
+
+	           
+
+	        }
+		
+		
+	}
+
+

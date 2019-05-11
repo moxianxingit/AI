@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;thread&apos; from expression &apos;new Thread()&apos;&#x0D;&#x0A;- Original project: &apos;RobotTest&apos;&#x0D;&#x0A;- Variable name: &apos;thread&apos;&#x0D;&#x0A;- Destination method: &apos;com.mo.User.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;new Thread()&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;thread&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.mo{User.java" name="thread" replace="true" selection="529 0" stamp="1556467200312" version="1.0"/>
+</session>

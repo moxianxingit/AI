@@ -1,0 +1,26 @@
+ 
+
+
+jdbc.url=jdbc:mysql://localhost:8080/user
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.user=root
+jdbc.password=123456
+
+
+
+jdbc.minPoolSize=1
+jdbc.maxPoolSize=50
+jdbc.maxWait=60000
+jdbc.maxIdleTime=60
+jdbc.checkoutTimeout=0
+jdbc.maxStatementsPerConnection=100
+enableRW = false
+enableRC = true
+
+ 
+
+
+ 
+
+#打开后台任务
+enableTasks=false

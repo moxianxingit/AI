@@ -1,0 +1,27 @@
+package com.mo;
+
+import java.awt.AWTException;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		for(;;) { //死循环，需要通过循环控制关键字，满足条件的时候终止循环
+			System.out.println(1);
+		}
+		
+	}
+}
+
+

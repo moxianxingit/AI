@@ -1,0 +1,35 @@
+package com.mo;
+
+import java.awt.AWTException;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class Test {
+
+	 public static void main(String[] args) throws AWTException,   
+	 InterruptedException, IOException
+        {			
+            Robot robot = new Robot();	                                     
+            Thread thread = new Thread();	                       
+            for(;;) { 
+            	 thread.sleep(3000);
+            	 robot.mouseMove(500, 500);
+            	 System.err.println("llllll");
+            	 thread.sleep(2000);
+            	 robot.mouseMove(200, 200);
+    			
+        }
+        }
+
+}
+
+

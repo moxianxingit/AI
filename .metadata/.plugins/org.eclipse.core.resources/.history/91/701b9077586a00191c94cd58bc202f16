@@ -1,0 +1,23 @@
+package com.mo;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.io.IOException;
+public class Test {
+
+	 public static void main(String[] args) throws AWTException,   
+	 InterruptedException, IOException
+        {			
+            Robot robot = new Robot();	                                     
+            Thread thread = new Thread();	                       
+            for(;;) { 
+            	 thread.sleep(3000);
+            	 robot.mouseMove(500, 500);       
+            	 thread.sleep(3000);
+            	 robot.mouseMove(200, 200);    			
+        }
+        }
+
+}
+
+
